@@ -45,6 +45,29 @@ theme.js
 - Notifications
 - Mobile Application
 
+## 📸 Screenshots
+
+### 🏠 Home
+![Home](home.png)
+
+### 📊 Dashboard
+![Dashboard](dashboard.png)
+
+### ✅ Tasks
+![Tasks](tasks.png)
+
+### 📝 Notes
+![Notes](notes.png)
+
+### ⏱️ Pomodoro Timer
+![Pomodoro](pomodoro.png)
+
+### 📅 Calendar
+![Calendar](calendar.png)
+
+### 🌙 Dark Mode
+![Dark Mode](darkmode.png)
+
 ## 👨‍💻 Author
 
 *Nitin Krishna K E*
