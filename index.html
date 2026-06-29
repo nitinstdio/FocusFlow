@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FocusFlow</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+
+    <div class="logo">
+        <span style="color:#4285F4;">F</span><span style="color:#EA4335;">o</span><span style="color:#FBBC05;">c</span><span style="color:#4285F4;">u</span><span style="color:#34A853;">s</span><span>Flow</span>
+    </div>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="tasks.html">Tasks</a></li>
+        <li><a href="notes.html">Notes</a></li>
+        <li><a href="pomodoro.html">Pomodoro</a></li>
+        <li><a href="calendar.html">Calendar</a></li>
+
+    </ul>
+    <button id="themeBtn">🌙</button>
+
+</nav>
+
+<section class="hero">
+
+    <h1>Organize <span class="blue">E</span><span class="red">v</span><span class="yellow">e</span><span class="blue">r</span><span class="green">y</span><span class="red">t</span><span class="yellow">h</span><span class="blue">i</span><span class="green">n</span><span class="red">g</span>.</h1>
+
+    <p>Google-inspired productivity workspace built for students and professionals.</p>
+
+    <div class="search-box">
+        <input
+           type="text"
+           id="searchInput"
+           placeholder="Search tasks, notes or reminders...">
+        <button id="searchBtn">Search</button>
+    </div>
+    <div id="searchResults" class="search-results"></div>
+
+</section>
+
+<section class="cards">
+
+    <div class="card" onclick="location.href='calendar.html'">
+    🗓️    
+        <h3>Calendar</h3>
+        <p>Plan your day efficiently.</p>
+    </div>
+
+    <div class="card" onclick="location.href='tasks.html'">
+    ✅
+        <h3>Tasks</h3>
+        <p>Track everything you need to finish.</p>
+    </div>
+
+    <div class="card" onclick="location.href='notes.html'">
+    📝
+        <h3>Notes</h3>
+        <p>Quick ideas and study notes.</p>
+    </div>
+
+    <div class="card" onclick="location.href='pomodoro.html'">
+    ⏱️
+        <h3>Pomodoro</h3>
+        <p>Stay focused with timed sessions.</p>
+    </div>
+
+</section>
+<script src="script.js"></script>
+<script src="theme.js"></script>
+
+</body>
+</html>

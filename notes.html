@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes | FocusFlow</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">
+        <span style="color:#4285F4;">F</span><span style="color:#EA4335;">o</span><span style="color:#FBBC05;">c</span><span style="color:#4285F4;">u</span><span style="color:#34A853;">s</span><span>Flow</span>
+    </div>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="tasks.html">Tasks</a></li>
+        <li><a href="notes.html">Notes</a></li>
+        <li><a href="pomodoro.html">Pomodoro</a></li>
+        <li><a href="calendar.html">Calendar</a></li>
+    </ul>
+    <button id="themeBtn">🌙</button>
+</nav>
+
+<section class="hero">
+    <h1>📝 My Notes</h1>
+
+    <div class="notes-box">
+
+        <textarea
+            id="noteInput"
+            placeholder="Write something..."></textarea>
+
+        <button id="saveNote">
+            Save Note
+        </button>
+
+    </div>
+
+    <div id="notesContainer"></div>
+
+</section>
+
+<script src="notes.js"></script>
+<script src="theme.js"></script>
+
+</body>
+</html>

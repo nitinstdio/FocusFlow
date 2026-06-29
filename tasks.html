@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tasks | FocusFlow</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+
+    <div class="logo"><span style="color:#4285F4;">F</span><span style="color:#EA4335;">o</span><span style="color:#FBBC05;">c</span><span style="color:#4285F4;">u</span><span style="color:#34A853;">s</span><span>Flow</span></div>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="tasks.html">Tasks</a></li>
+        <li><a href="notes.html">Notes</a></li>
+        <li><a href="pomodoro.html">Pomodoro</a></li>
+        <li><a href="calendar.html">Calendar</a></li>
+    </ul>
+    <button id="themeBtn">🌙</button>
+
+</nav>
+
+<section class="hero">
+    <h1>My Tasks</h1>
+
+    <div class="search-box">
+        <input type="text" id="taskInput" placeholder="Enter task">
+
+        <input type="date" id="taskDate">
+
+<button id="addTask">Add</button>
+    </div>
+
+    <!-- Task Counter -->
+    <div id="taskCounter">
+        Total Tasks: 0 | Completed: 0
+    </div>
+    <div id="progressContainer">
+        <div id="progressBar"></div>
+    </div>
+
+    <div id="taskList"></div>
+</section>
+<script src="script.js"></script>
+<script src="theme.js"></script>
+</body>
+</html>

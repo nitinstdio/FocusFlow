@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard | FocusFlow</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+
+    <div class="logo">
+        <span style="color:#4285F4;">F</span><span style="color:#EA4335;">o</span><span style="color:#FBBC05;">c</span><span style="color:#4285F4;">u</span><span style="color:#34A853;">s</span><span>Flow</span>
+    </div>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="tasks.html">Tasks</a></li>
+        <li><a href="notes.html">Notes</a></li>
+        <li><a href="pomodoro.html">Pomodoro</a></li>
+        <li><a href="calendar.html">Calendar</a></li>
+    </ul>
+    <button id="themeBtn">🌙</button>
+
+</nav>
+
+<section class="hero">
+
+    <div class="dashboard-header">
+        <h1 id="greeting"></h1>
+        <p id="todayDate"></p>
+        <span id="quote"></span>
+    </div>
+
+    <div class="dashboard-grid">
+
+        <div class="stat-card total-card">
+            <div class="card-icon">📝</div>
+            <h2 id="totalTasks">0</h2>
+            <p>Total Tasks</p>
+        </div>
+
+        <div class="stat-card total-card">
+            <div class="card-icon">🍅</div>
+            <h2 id="focusSessions">0</h2>
+            <p>Focus Sessions</p>
+        </div>
+
+        <div class="stat-card completed-card">
+            <div class="card-icon">⏱️</div>
+            <h2 id="focusTime">0 min</h2>
+            <p>Focus Time</p>
+        </div>
+
+        <div class="stat-card completed-card">
+            <div class="card-icon">✅</div>
+            <h2 id="completedTasks">0</h2>
+            <p>Completed Tasks</p>
+        </div>
+
+        <div class="stat-card pending-card">
+            <div class="card-icon">⏳</div>
+            <h2 id="pendingTasks">0</h2>
+            <p>Pending Tasks</p>
+        </div>
+
+        <div class="stat-card productivity-card">
+            <div class="card-icon">📈</div>
+            <h2 id="productivity">0%</h2>
+            <p>Productivity</p>
+        </div>
+
+    </div>
+
+    <div class="today-tasks">
+
+        <h2>📝 Today's Tasks</h2>
+
+        <div id="todayTasks">
+            <p>No tasks yet.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<script src="dashboard.js"></script>
+<script src="theme.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro | FocusFlow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">
+        <span class="blue">F</span><span class="red">o</span><span class="yellow">c</span><span class="blue">u</span><span class="green">s</span><span class="logo-text">Flow</span>
+    </div>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="tasks.html">Tasks</a></li>
+        <li><a href="notes.html">Notes</a></li>
+        <li><a href="pomodoro.html">Pomodoro</a></li>
+        <li><a href="calendar.html">Calendar</a></li>
+    </ul>
+    <button id="themeBtn">🌙</button>
+</nav>
+
+<div class="timer-container">
+
+    <h1>🍅 Focus Timer</h1>
+      <div class="mode-buttons">
+      <button id="focusMode">🍅 Focus</button>
+      <button id="shortBreak">☕ Short Break</button>
+      <button id="longBreak">🌴 Long Break</button>
+    </div>
+
+    <div class="timer-circle">
+
+        <svg width="250" height="250">
+
+            <circle
+                class="bg-circle"
+                cx="125"
+                cy="125"
+                r="100">
+            </circle>
+
+            <circle
+                id="progressCircle"
+                class="progress-circle"
+                cx="125"
+                cy="125"
+                r="100">
+            </circle>
+
+        </svg>
+
+        <div id="timer">25:00</div>
+
+    </div>
+
+    <div class="timer-buttons">
+        <button id="startBtn">Start</button>
+        <button id="pauseBtn">Pause</button>
+        <button id="resetBtn">Reset</button>
+    </div>
+
+    <h3>Completed Sessions: <span id="sessions">0</span></h3>
+
+</div>
+
+<script src="pomodoro.js"></script>
+<script src="theme.js"></script>
+
+</body>
+</html>
