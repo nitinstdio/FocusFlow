@@ -1,94 +1,54 @@
-# 🚀 FocusFlow
+# FocusFlow
 
-A modern productivity web application inspired by Google's clean design, built using HTML, CSS, and JavaScript.
+A Google-inspired productivity web application built using HTML, CSS, and JavaScript to help users organize tasks, manage notes, track focus sessions, and improve productivity.
 
-🌐 **Live Demo:** https://kenitinkrishna2k4-source.github.io/FocusFlow/
+## 🌐 Live Demo
 
----
+https://nitinstdio.github.io/FocusFlow/
 
 ## ✨ Features
 
-- ✅ Task Manager
-- 📝 Notes Manager
-- ⏳ Pomodoro Timer
-- 📅 Interactive Calendar
+- ✅ Task Management
+- 📝 Notes
+- ⏱️ Pomodoro Timer
+- 📅 Calendar
 - 📊 Productivity Dashboard
-- 🌙 Dark Mode
-- 💾 Local Storage Support (Data persists after refresh)
-- 🔍 Search Functionality
+- 🌙 Dark & Light Mode
+- 📱 Responsive Design
 
----
-
-## 🛠️ Built With
+## 🛠️ Tech Stack
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla JS)
-- Local Storage API
-- GitHub Pages
-
----
+- JavaScript
 
 ## 📂 Project Structure
 
 ```
-FocusFlow/
-│── index.html
-│── tasks.html
-│── notes.html
-│── pomodoro.html
-│── dashboard.html
-│── calendar.html
-│── style.css
-│── script.js
-│── notes.js
-│── pomodoro.js
-│── dashboard.js
-│── calendar.js
-│── theme.js
-│── alarm.mp3
+index.html
+style.css
+script.js
+dashboard.html
+dashboard.js
+tasks.html
+notes.html
+pomodoro.html
+calendar.js
+theme.js
 ```
 
----
+## 🚀 Future Improvements
 
-## 🚀 How to Run
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/kenitinkrishna2k4-source/FocusFlow.git
-```
-
-2. Open the project folder.
-
-3. Open `index.html` in your browser.
-
----
-
-## 📸 Preview
-
-Home Page
-
-(Add screenshots here later.)
-
----
-
-## 📌 Future Improvements
-
-- User Login & Authentication
-- Cloud Sync
-- Notifications & Reminders
-- Drag-and-Drop Tasks
-- Mobile App Version
-
----
+- User Authentication
+- Cloud Synchronization
+- Data Backup
+- Notifications
+- Mobile Application
 
 ## 👨‍💻 Author
 
-**Nitin Krishna**
+*Nitin Krishna K E*
 
-GitHub: https://github.com/kenitinkrishna2k4-source
+GitHub: https://github.com/nitinstdio
+Repository: https://github.com/nitinstdio/FocusFlow                                 
 
----
-
-⭐ If you like this project, consider giving it a star!
